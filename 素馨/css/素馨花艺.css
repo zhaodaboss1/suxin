@@ -1,0 +1,248 @@
+/*顶部开始*/
+.header-box {
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    position: fixed;
+    z-index: 999;
+}
+.header-box2 {
+    width: 1170px;
+    height: 79px;
+    margin: 0 auto;
+}
+.header-box3 {
+    width: 150px;
+    height: 79px;
+    float: left;
+    line-height: 79px;
+    position: relative;
+
+}
+.header-box3 img {
+    width: 150px;
+    height: 50px;
+    padding-top: 18px;
+}
+.header-box4{
+    width: 1170px;
+    height: 79px;
+}
+.header-list {
+    width: 630px;
+    height: 79px;
+    float: right;
+}
+.header-list2{
+    line-height: 79px;
+    float: left;
+}
+.header-list2 a {
+    width: 86px;
+    height: 79px;
+    padding: 10px 15px;
+    color: #2a333c;
+    font-size: 14px;
+}
+.header-list2:hover a{
+    color: #62a8ea;
+}
+#one{
+    color: #62a8ea;
+}
+/*顶部结束*/
+
+.met-img{
+    width: 1349px;
+    height: 1089px;
+}
+.container{
+    width: 1319px;
+    height: 1089px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row{
+    width: 1349px;
+    height: 1089px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.img-box{
+    width: 1349px;
+    height: 1089px;
+}
+.widget{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.subject{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 9;
+}
+
+/*.subject:hover .subject-row{
+    width: 100%;
+    height: 100%;
+
+}*/
+.subject-row2{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.subject>img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s linear;
+}
+.widget:hover .subject>img{
+    transform: scale(1.2,1.2);
+}
+.widget:hover .subject-row2{
+    background: rgba(0,0,0,0.6);
+    z-index: 9;
+
+}
+.center-box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #fff;
+    box-sizing: border-box;
+}
+.center{
+    width: 120px;
+    height: 137px;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    max-width: 100%;
+    font-size: 14px;
+    display: inline-block;
+}
+.time{
+    width: 120px;
+    height: 38px;
+    display: block;
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
+}
+.time::after{
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 15px auto;
+    content: "";
+    background-color: #fff;
+}
+.time>span{
+    font-size: 14px;
+}
+.tittle{
+    width: 144px;
+    height: 28px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nut{
+    color: #fff;
+    background-color: transparent;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    border-radius: 3px;
+    font-weight: 300;
+    text-align: center;
+    border: 1px solid #e4eaec;
+    position: absolute;
+    left: 0 ;
+    right: 0 ;
+    margin-left: 30px;
+}
+.nut :hover{
+    color: #F1F1F1;
+    background: black;
+}
+.right1{
+    float: right;
+}
+
+
+/*底部开始*/
+.footer-box {
+    width:1349px ;
+    height: 110px;
+    margin-top: 10px;
+    background: #F1F1F1;
+}
+.footer-box2 {
+    width: 1349px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+    background: #F1F1F1;
+
+}
+.footer-box2 i{
+    margin: 0px 10px;
+    font-size: 26px;
+    color: #62a8ea;
+}
+#weixi{
+    font-size: 30px;
+    color: #83b944
+}
+#qq{
+    font-size: 30px;
+    color: #62a8ea;
+}
+#youxiang{
+    font-size: 30px;
+    color: #62a8ea;
+}
+.footer-box3 {
+    width: 1349px;
+    height: 84px;
+    text-align: center;
+    margin: 2px 1px;
+    box-sizing: border-box;
+    background: #F1F1F1;
+
+}
+.footer-box3 a{
+    color: #62a8ea;
+    font-size: 14px;
+    margin: 4px 3px;
+    box-sizing: border-box;
+}
+.footer-box3 p{
+    color: #aaaaaa;
+    font-size: 14px;
+    margin: 4px 3px;
+    box-sizing: border-box;
+}
+/*底部结束*/
